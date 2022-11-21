@@ -50,7 +50,7 @@ const Chart = () => {
     ],
   };
   return (
-    <div ClassName={styles.charts}>
+    <div className={styles.charts}>
       <Card cardClass={styles.card}>
         <h3>Order Status Chart</h3>
         <Bar options={options} data={data} />;
